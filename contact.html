@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style3.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		 <!-- navbar -->
+		 <nav class="navbar navbar-expand-lg fixed-top">
+			<div class="container">
+			  <a class="navbar-brand" href="#"><img src="images/logo.jpeg" width="60" height="40"> &nbsp; <span class="logo">NQ Group</span></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="main">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 uli">
+				  <li class="nav-item">
+					<a class="nav-link  p-lg-3" aria-current="page" href="#" >Home</a>
+				  </li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle p-lg-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  Services
+					</a>
+					<ul class="dropdown-menu" style="background-color: #f5f5f5;">
+					  <li><a class="dropdown-item " href="#">Consultation</a></li>
+					  <li class="dropdown-submenu">
+						<a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Training Programs
+						</a>
+						<ul class="dropdown-menu" style="background-color: #f5f5f5;">
+						  <li><a class="dropdown-item " href="#">Program 1</a></li>
+						  <li><a class="dropdown-item " href="#">Program 2</a></li>
+						</ul>
+					  </li>
+					</ul>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link p-lg-3" href="contact.html">Contact US</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link p-lg-3" href="about.html">About US</a>
+				  </li>
+				</ul>
+				<div class="search ps-3 pe-3">
+				  <i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+			  </div>
+			</div>
+		  </nav>
+			 <!-- end navbar -->
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Contact Us</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-12">
+					<div class="wrapper">
+						<div class="row mb-5">
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-map-marker" style="color: whitesmoke;"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Address:</span> 198 West 21th Street, Suite 721 Egypt 10016</p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-phone"style="color: whitesmoke;"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-paper-plane" style="color: whitesmoke;"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+				          </div>
+			          </div>
+							</div>
+							<div class="col-md-3">
+								<div class="dbox w-100 text-center">
+			        		<div class="icon d-flex align-items-center justify-content-center">
+			        			<span class="fa fa-globe" style="color: whitesmoke;"></span>
+			        		</div>
+			        		<div class="text">
+				            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+				          </div>
+			          </div>
+							</div>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-md-7 p-0">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h3 class="mb-4">Contact Us</h3>
+									<div id="form-message-warning" class="mb-4"></div> 
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="label" for="name">Full Name</label>
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-6"> 
+												<div class="form-group">
+													<label class="label" for="email">Email Address</label>
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="subject">Subject</label>
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<label class="label" for="#">Message</label>
+													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-5 p-0 d-flex align-items-stretch">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7292352.143527166!2d25.578776456241098!3d26.817080340986028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2sEgypt!5e0!3m2!1sen!2seg!4v1723310183199!5m2!1sen!2seg" width="600" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			          </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer  -->
+	<footer class="footer p-5 mb-0" style="color: whitesmoke;">
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-3">
+					<h2 style="color: whitesmoke;"><i>NQ Group</i></h2>
+				</div>
+				<div class="col-md-3">
+					<h5 style="color: whitesmoke;">About Us</h5>
+					<p style="color: whitesmoke;">
+						Place that offers you all the administrative and marketing solutions and consulting services to develop your business.
+					</p>
+				</div>
+				<div class="col-md-3">
+					<h5 style="color: whitesmoke;">Contact Us</h5>
+					<ul class="list-unstyled" style="color: whitesmoke;">
+						<li>Email: info@example.com</li>
+						<li>Phone: +1233567890</li>
+						<li>Address: 123 Street, City, Country</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5 style="color: whitesmoke;">Follow Us</h5>
+					<ul class="list-inline footer-links">
+						<li class="list-inline-item">
+						  <a href="#" style="color: whitesmoke;">
+								<i class="fab fa-facebook"></i>
+						  </a>
+						  </li>
+						<li class="list-inline-item">
+						  <a href="#" style="color: whitesmoke;">
+								<i class="fab fa-twitter"></i>
+						  </a>
+						</li>
+						<li class="list-inline-item">
+						  <a href="#" style="color: whitesmoke;">
+								<i class="fab fa-instagram"></i>
+						  </a>
+						</li>
+						<li class="list-inline-item">
+						  <a href="https://www.linkedin.com/company/nextquest-eg?originalSubdomain=eg" style="color: whitesmoke;">
+								<i class="fab fa-linkedin"></i>
+						  </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-6">
+					<p style="color: whitesmoke;">&copy; 2024 Your Website. All rights reserved.</p>
+				</div>
+				<div class="col-md-6 text-end">
+					<ul class="list-inline footer-links">
+						<li class="list-inline-item">
+							<a href="#" class="text-white" style="color: whitesmoke;">
+								Privacy Policy
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="text-white" style="color: whitesmoke;">
+								Terms of Service
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="text-white" style="color: whitesmoke;">
+								Sitemap
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	  </footer>
+	<!-- End footer -->
+		  <script src="js/all.js"></script>
+		  <script src="js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	</body>
+</html>
+
